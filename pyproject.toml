@@ -1,0 +1,10 @@
+[project]
+name = "rename-plan"
+version = "1.0.0"
+description = "Plan and apply bulk file renames with pattern rules, preview table and JSON output"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+rename-plan = "rename_plan:main"
